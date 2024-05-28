@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  display: flex;
+}
+
+
+.left-side {
+  border: 1px solid orange;
+  width: 40%;
+  height: 100vh;
+  background-image: url(images/image1.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.right-side {
+  border: 1px solid green;
+  width: 60%;
+  height: 100vh;
+}
+
+
+.logo-container {
+  width: 100%;
+  height: 20%;
+  background-color: rgba(60,60,60,0.2);
+  position: absolute;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4vw;
+}
+
+img {
+  width: 8vw;
+  height: 8vw;
+}

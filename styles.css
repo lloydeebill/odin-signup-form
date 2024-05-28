@@ -85,27 +85,41 @@ img {
   height: 8vw;
 }
 
-.right-side {
-  padding: 12px;
-}
 
 .shrine-details {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 20px;
+  margin: 30px;
 }
 
 h2 {
-  font-size: 1.5vw;
+  font-size: 2.5vw;
   padding: 5px;
 }
 
 p {
-  font-size: 0.8vw;
+  font-size: 1vw;
 }
 
 form {
   border: 1px solid #ccc;
-  height:70%;
+  height: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form-left-side , .form-right-side{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  width: 20vw;
+  margin-bottom: 40px;
 }

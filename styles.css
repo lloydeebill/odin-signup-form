@@ -64,7 +64,6 @@ body {
   height: 100vh;
 }
 
-
 .logo-container {
   width: 100%;
   height: 20%;
@@ -75,10 +74,38 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.odin-title {
   font-size: 4vw;
 }
 
 img {
   width: 8vw;
   height: 8vw;
+}
+
+.right-side {
+  padding: 12px;
+}
+
+.shrine-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 1.5vw;
+  padding: 5px;
+}
+
+p {
+  font-size: 0.8vw;
+}
+
+form {
+  border: 1px solid #ccc;
+  height:70%;
 }

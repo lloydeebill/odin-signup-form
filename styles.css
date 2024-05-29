@@ -50,7 +50,6 @@ body {
 
 
 .left-side {
-  border: 1px solid orange;
   width: 40%;
   height: 100vh;
   background-image: url(images/image1.jpg);
@@ -59,9 +58,12 @@ body {
 }
 
 .right-side {
-  border: 1px solid green;
   width: 60%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/image2.jpg);
+  background-size: cover;
 }
 
 .logo-container {
@@ -74,6 +76,23 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.credits-container {
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  color: white;
+}
+
+a:link, a:visited , a:active {
+  color: white;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: red;
 }
 
 .odin-title {
@@ -91,8 +110,11 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 20px;
   margin: 30px;
+  background-color: rgba(243, 225, 225, 0.6);
+  padding: 40px;
+  border-radius: 50px;
+  color: black;
 }
 
 h2 {
@@ -105,7 +127,6 @@ p {
 }
 
 form {
-  border: 1px solid #ccc;
   height: 40%;
   display: flex;
   justify-content: space-evenly;
@@ -121,5 +142,27 @@ form {
 
 input {
   width: 20vw;
+  height: 2vw;
   margin-bottom: 40px;
 }
+
+label {
+  font-size: 1.2vw;
+  color: white;
+}
+
+.button-container {
+  margin:0 auto;
+  margin-top: 50px;
+}
+
+.submit-button {
+  width: 13vw;
+  margin-bottom: 12px;
+}
+
+.login-link:link {
+  color: black;
+
+}
+

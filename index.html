@@ -30,7 +30,7 @@
         <p>Register now to get a scheduled tour</p>
       </div>
 
-      <form>
+      <form id="myForm" action="/submit" method="post">
 
         
         <div class="form-left-side">
@@ -61,8 +61,12 @@
       </form>
 
       <div class="button-container">
-        <button type="submit" class="submit-button">Create Account</button>
-        <p>Already have an account? <a class="login-link">Login</a></p>
+        <button type="submit" class="submit-button" form="myForm" >Create Account</button>
+        <p>Already have an account? <a>Login</a></p>
+      </div>
+      <div class="right-credits-container">
+        <p>Photo by <a href="https://unsplash.com/@zhangkaiyv" target="_blank">zhang kaiyv</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+
       </div>
     </div>
 

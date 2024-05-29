@@ -63,6 +63,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url(images/image2.jpg);
+  opacity: 1;
   background-size: cover;
 }
 
@@ -144,6 +145,9 @@ input {
   width: 20vw;
   height: 2vw;
   margin-bottom: 40px;
+  border-radius: 6px;
+  border: none;
+  padding: 10px;
 }
 
 label {
@@ -153,16 +157,34 @@ label {
 
 .button-container {
   margin:0 auto;
-  margin-top: 50px;
+  margin-top: 5px;
+  color: white;
 }
 
 .submit-button {
   width: 13vw;
+  height: 3vw;
+  background-color: rgba(144, 198, 149, 1);
+  border: none;
+  border-radius: 12px;
   margin-bottom: 12px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.login-link:link {
-  color: black;
-
+.right-credits-container {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  left: 85%;
+  top: 95%;
 }
+
+.right-credits-container > p {
+  font-size: 12px;
+}
+
+
 

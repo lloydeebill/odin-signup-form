@@ -94,7 +94,7 @@ a:link, a:visited , a:active {
 }
 
 a:hover {
-  color: green;
+  color: red;
 }
 
 .odin-title {
@@ -150,18 +150,16 @@ input {
   border: none;
   padding: 10px;
   font-size: 25px;
-  border: 3px solid black;
+  border: 2px solid black;
 }
 
 input:valid {
-  border: 3px solid green;
+  border: 2px solid green;
 }
 
 input:invalid:not(:focus):not(:placeholder-shown) {
-  border: 3px solid red;
+  border: 2px solid red;
 }
-
-
 
 
 label {

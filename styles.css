@@ -65,6 +65,7 @@ body {
   background-image: url(images/image2.jpg);
   opacity: 1;
   background-size: cover;
+  filter: brightness(95%);
 }
 
 .logo-container {
@@ -93,7 +94,7 @@ a:link, a:visited , a:active {
 }
 
 a:hover {
-  color: red;
+  color: green;
 }
 
 .odin-title {
@@ -148,7 +149,20 @@ input {
   border-radius: 6px;
   border: none;
   padding: 10px;
+  font-size: 25px;
+  border: 3px solid black;
 }
+
+input:valid {
+  border: 3px solid green;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown) {
+  border: 3px solid red;
+}
+
+
+
 
 label {
   font-size: 1.2vw;
@@ -172,6 +186,11 @@ label {
   white-space: nowrap;
   overflow: hidden;
   cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: black;
+  color: white;
 }
 
 .right-credits-container {

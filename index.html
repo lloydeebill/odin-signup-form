@@ -36,43 +36,40 @@
         <div class="form-left-side">
   
           <label for="first-name">First Name:</label>
-          <input type="text" name="user_first_name" id="first-name">
+          <input type="text" name="user_first_name" id="first-name" required placeholder="Loidee">
 
           <label for="last-name">Last Name:</label>
-          <input type="text" name="user_last_name" id="last-name">
+          <input type="text" name="user_last_name" id="last-name" required placeholder="Sel">
 
           <label for="email">Email:</label>
-          <input type="email" name="user_email" id="email">
+          <input type="email" name="user_email" id="email" required placeholder="loideesel@example.com">
         </div>
         
         <div class="form-right-side">
   
           <label for="phone-number">Phone Number:</label>
-          <input type="tel" name="user_number" id="phone_number">
+          <input type="tel" name="user_number" id="phone-number" pattern="[0-9]{11}" title="Enter a valid phone number" required placeholder="09123456789">
 
           <label for="password">Password:</label>
-          <input type="text" name="user_password" id="password">
+          <input type="password" name="user_password" id="password" required>
 
           <label for="confirm-password">Confirm Password:</label>
-          <input type="text" name="user_confirm-password" id="confirm-password">
+          <input type="password" name="user_confirm_password" id="confirm-password" required>
         </div>
 
     
       </form>
 
       <div class="button-container">
-        <button type="submit" class="submit-button" form="myForm" >Create Account</button>
-        <p>Already have an account? <a>Login</a></p>
+        <button type="submit" class="submit-button" form="myForm">Create Account</button>
+        <p>Already have an account? <a href="#">Login</a></p>
       </div>
       <div class="right-credits-container">
         <p>Photo by <a href="https://unsplash.com/@zhangkaiyv" target="_blank">zhang kaiyv</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+        </p>
 
       </div>
     </div>
-
-    
-
-
 
   </div>
   
